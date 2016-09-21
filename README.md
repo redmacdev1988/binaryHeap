@@ -26,4 +26,10 @@ Except root node, which has no parent
 share ancestor share ancestor-descendant relationship</li>
 </ul>
 
+<a href="http://shanghaiseagull.com/wp-content/uploads/2016/09/heapinsert.png"><img src="http://shanghaiseagull.com/wp-content/uploads/2016/09/heapinsert.png" alt="heapinsert" width="565" height="529" class="alignnone size-full wp-image-5124" /></a>
+
+<a href="http://shanghaiseagull.com/wp-content/uploads/2016/09/minheap.png"><img src="http://shanghaiseagull.com/wp-content/uploads/2016/09/minheap.png" alt="minheap" width="485" height="263" class="alignnone size-large wp-image-5125" /></a>http://www.algolist.net/Data_structures/Binary_heap/Array-based_int_repr
+
+
 <b>Height</b> of a complete binary tree with N elements is O(log n)
+
