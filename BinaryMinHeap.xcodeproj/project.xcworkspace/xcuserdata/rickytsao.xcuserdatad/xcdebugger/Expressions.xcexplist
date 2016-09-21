@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MinHeap::floatDown(int):MinHeap.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "data[1]">
+            </PersistentString>
+            <PersistentString
+               value = "data[5]">
+            </PersistentString>
+            <PersistentString
+               value = "data[6]">
+            </PersistentString>
+            <PersistentString
+               value = "data[2]">
+            </PersistentString>
+            <PersistentString
+               value = "data[3]">
+            </PersistentString>
+            <PersistentString
+               value = "data[4]">
+            </PersistentString>
+            <PersistentString
+               value = "data[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MinHeap::floatUp(int):MinHeap.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "data[0]">
+            </PersistentString>
+            <PersistentString
+               value = "data[1]">
+            </PersistentString>
+            <PersistentString
+               value = "data[2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "MinHeap::switchValuesByPtrs(int*, int*):MinHeap.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "MinHeap::insert(int):MinHeap.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "data[0]">
+            </PersistentString>
+            <PersistentString
+               value = "data[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
