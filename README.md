@@ -44,8 +44,14 @@ this->data = new int [size];
 
 given that we start at index 0:
 
-left child index = 2 * i + 1
-right child index = 2 * i + 2
-parent index = (i-1) / 2 
+<ul>
+<li>left child index = 2 * i + 1</li>
+<li>right child index = 2 * i + 2</li>
+<li>parent index = (i-1) / 2 </li>
+</ul>
 
-<h3>Heap Insertion</h3>
+<h3>Heap Insertion O( log n ) </h3>
+
+For insertion, we always append the new element at the end of the array. Then recursively float this integer up where it satisfies min-heap property such that the parent is smaller than the child. We do so by seeing if the parent is larger than us, if is, then we switch the values. If not, we are done.
+
+<h3>Heap Deletion O( log n )</h3>
