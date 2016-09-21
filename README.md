@@ -55,3 +55,8 @@ given that we start at index 0:
 For insertion, we always append the new element at the end of the array. Then recursively float this integer up where it satisfies min-heap property such that the parent is smaller than the child. We do so by seeing if the parent is larger than us, if is, then we switch the values. If not, we are done.
 
 <h3>Heap Deletion O( log n )</h3>
+
+First, we copy the last value in the tree ( last element of the array ) onto the root. Then remove the last element, and decrease the heap size counter.
+
+From there we recursively push the root value down the tree so that it satisfies the min-heap property of where key(parent) <= key(child). 
+
