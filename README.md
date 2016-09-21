@@ -1,6 +1,12 @@
 # binaryMinHeap
 A priority queue built by using binary minimum heap
 
+<h4>Usage</h4>
+<ul>
+<li>Scheduling jobs by priority</li>
+<li>Graph algorithms - find shortest path</li>
+</ul>
+
 
 Queues are a standard mechanism for ordering tasks on a first-come, first-served basis.
 However, some tasks may be more important or timely than others (higher priority).
