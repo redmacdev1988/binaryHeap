@@ -58,5 +58,5 @@ For insertion, we always append the new element at the end of the array. Then re
 
 First, we copy the last value in the tree ( last element of the array ) onto the root. Then remove the last element, and decrease the heap size counter.
 
-From there we recursively push the root value down the tree so that it satisfies the min-heap property of where key(parent) <= key(child). 
+From there we recursively push the root value down the tree so that it satisfies the min-heap property of where key(parent) <= key(child). We decide on which child node to go down by comparing the two child nodes. We switch the parent value with the smallest of the 2 child nodes.
 
