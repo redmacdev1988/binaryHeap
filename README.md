@@ -32,3 +32,20 @@ share ancestor share ancestor-descendant relationship</li>
 
 <b>Height</b> of a complete binary tree with N elements is O(log n)
 
+<h3>Implementing min heap as arrays</h3>
+
+So in our project, you'll see that we allocate a chunk of memory for integers, AKA a row of integers.
+We have an integer pointer at the head of the array.
+<pre>
+this->data = new int [size];
+</pre>
+
+<h3>Calculating the parent, left child, right child indexes</h3>
+
+given that we start at index 0:
+
+left child index = 2 * i + 1
+right child index = 2 * i + 2
+parent index = (i-1) / 2 
+
+<h3>Heap Insertion</h3>
