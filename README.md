@@ -1,5 +1,5 @@
-# binaryMinHeap
-A priority queue built by using binary minimum heap
+# binaryHeap
+A priority queue built by using binary heap
 
 <h4>Usage</h4>
 <ul>
@@ -11,7 +11,7 @@ A priority queue built by using binary minimum heap
 Queues are a standard mechanism for ordering tasks on a first-come, first-served basis.
 However, some tasks may be more important or timely than others (higher priority).
 
-Hence, we use min/max heaps to solve this. 
+Hence, we use min/max heaps to solve this.
 
 A heap is a specific tree based data structure in which all the nodes of tree are in a specific order. Let’s say if X is a parent node of Y, then the value of X follows some specific order with respect to value of Y and the same order will be followed across the tree.
 
@@ -65,4 +65,3 @@ For insertion, we always append the new element at the end of the array. Then re
 First, we copy the last value in the tree ( last element of the array ) onto the root. Then remove the last element, and decrease the heap size counter.
 
 From there we recursively push the root value down the tree so that it satisfies the min-heap property of where key(parent) <= key(child). We decide on which child node to go down by comparing the two child nodes. We switch the parent value with the smallest of the 2 child nodes.
-
